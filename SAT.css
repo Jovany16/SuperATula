@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+h2{
+    font-size: 20px;
+    color: white;
+}
+
+h3{
+    font-size: 2em;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 1.2em;
+}
+
+#lugares a{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background-color: grey;
+}
+
+#hero a{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background-color: rgb(212, 22, 22);
+}
+
+#hero a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background-color: grey;
+}
+
+#lugares a:hover{
+    font-size: 20px;
+}
+
+
+.contenedor{
+    max-width: 1250px;
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    background-color: rgba(117, 24, 223, 0.932);
+    position: fixed;
+    width: 100%;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+}
+
+header .contenedor{
+display: flex;
+flex-direction:column;
+align-items: center;
+
+}
+
+header nav{
+    display: flex;
+    flex-direction: flex;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover{
+    text-decoration:underline;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(Carrito.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#sobre-nosotros{
+    padding: 50px 20px;
+    background-color: rgb(217, 217, 217);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#sobre-nosotros h2{
+    color: black;
+    font-size: 40px;
+}
+
+#sobre-nosotros p{
+    text-align: justify;
+    padding: 10px 20px;
+}
+#sobre-nosotros h3{
+    font-size: 20px;
+}
+#lugares{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#lugares .contenedor{
+    padding: 100px 0px;
+}
+
+#lugares p{
+    display: none;
+}
+
+#lugares h2{
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+#lugares .postal{
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0px;
+    margin: 40px;
+    border-radius: 15px;
+    font-size: 10px;
+}
+
+.postal:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(londres.jpg);
+}
+
+.postal:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(chichenitza.jpeg);
+    
+    
+}
+.postal:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(cristo.jpg);
+    
+}
+
+#equipo-de-trabajo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 150vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 60px;
+}
+
+#equipo-de-trabajo h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#equipo-de-trabajo h3{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+#equipo-de-trabajo .miembro{
+    text-align: center;
+    align-items: center;
+}
+
+img{
+   width: 150px;
+   vertical-align: middle;
+}
+
+#contactos{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .contenedor{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+
+    #lugares .postales{
+        display: flex;
+        justify-content: center;
+        background-position: center;
+    }
+    #lugares .postal{
+        padding: 60px;
+        height: 250px;
+        width: 700px;
+    }
+    #lugares h2{
+        font-size: 50px;
+    }
+
+    #equipo-de-trabajo .equipo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #contactos ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    #sobre-nosotros .contenedor{
+        display: flex;
+    }
+    #hero h1{
+        font-size: 70px;
+    }
+    #hero h2{
+        font-size: 35px;
+    }
+    #sobre-nosotros{
+        height:50vh;
+    }
+
+    #equipo-de-trabajo{
+        height: 60vh;
+    }
+}
